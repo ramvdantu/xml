@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone = 'no' ?>
 
-<!DOCTYPE Publications PUBLIC "https://raw.githubusercontent.com/ramvdantu/xml/main/Publications.dtd" "Publications.dtd"> 
+<!DOCTYPE html PUBLIC "https://raw.githubusercontent.com/ramvdantu/xml/main/Publications.dtd" > 
 <Publications>
   <Article PMID="1">
     <PubDetails>
