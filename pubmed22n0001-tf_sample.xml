@@ -1,41 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"  ?>
 
-<!DOCTYPE Publications SYSTEM "https://raw.githubusercontent.com/ramvdantu/xml/main/publications.dtd">
-<!DOCTYPE Publications [
-        <!ELEMENT Publications (Article)*>
-        <!ELEMENT ArticleDantu (PubDetails)*>
-        <!ATTLIST ArticleDantu
-                PMID CDATA #REQUIRED>
-        <!ELEMENT PubDetails (Journal|ArticleTitle|AuthorList)*>
-        <!ELEMENT Journal (ISSN|JournalIssue|Title|ISOAbbreviation)*>
-        <!ELEMENT ISSN (#PCDATA)>
-        <!ATTLIST ISSN
-                IssnType CDATA #REQUIRED>
-        <!ELEMENT JournalIssue (Volume|Issue|PubDate)*>
-        <!ATTLIST JournalIssue
-                CitedMedium CDATA #REQUIRED>
-        <!ELEMENT Volume (#PCDATA)>
-        <!ELEMENT Issue (#PCDATA)>
-        <!ELEMENT PubDate (Year|Month|Day)*>
-        <!ELEMENT Year (#PCDATA)>
-        <!ELEMENT Month (#PCDATA)>
-        <!ELEMENT Title (#PCDATA)>
-        <!ELEMENT ISOAbbreviation (#PCDATA)>
-        <!ELEMENT ArticleTitle (#PCDATA)>
-        <!ELEMENT AuthorList (Author)*>
-        <!ATTLIST AuthorList
-                CompleteYN CDATA #REQUIRED>
-        <!ELEMENT Author (LastName|ForeName|Initials)*>
-        <!ATTLIST Author
-                ValidYN CDATA #REQUIRED>
-        <!ELEMENT LastName (#PCDATA)>
-        <!ELEMENT ForeName (#PCDATA)>
-        <!ELEMENT Initials (#PCDATA)>
-        <!ELEMENT Article (PubDetails)*>
-        <!ATTLIST Article
-                PMID CDATA #REQUIRED>
-        <!ELEMENT Day (#PCDATA)>
-        ]>
+<!DOCTYPE Publications SYSTEM "https://raw.githubusercontent.com/ramvdantu/xml/main/publications.dtd"> 
 <Publications>
   <Article PMID="1">
     <PubDetails>
