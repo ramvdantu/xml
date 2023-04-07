@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"  ?>
 
-
+<!DOCTYPE Publications SYSTEM "https://raw.githubusercontent.com/ramvdantu/xml/main/publications.dtd">
 <!DOCTYPE Publications [
         <!ELEMENT Publications (Article)*>
         <!ELEMENT ArticleDantu (PubDetails)*>
