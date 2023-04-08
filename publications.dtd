@@ -22,12 +22,15 @@
         <!ELEMENT AuthorList (Author)*>
         <!ATTLIST AuthorList
                 CompleteYN CDATA #REQUIRED>
-        <!ELEMENT Author (LastName|ForeName|Initials|Suffix)*>
+        <!ELEMENT Author (LastName|ForeName|Initials|Suffix|AffiliationInfo|CollectiveName)*>
         <!ATTLIST Author
                 ValidYN CDATA #REQUIRED>
         <!ELEMENT LastName (#PCDATA)>
         <!ELEMENT ForeName (#PCDATA)>
         <!ELEMENT Initials (#PCDATA)>
+        <!ELEMENT AffiliationInfo (Affiliation)*>
+        <!ELEMENT Affiliation (#PCDATA)>
+        <!ELEMENT CollectiveName (#PCDATA)>
         <!ELEMENT Day (#PCDATA)>
         <!ELEMENT Suffix (#PCDATA)>
         <!ELEMENT MedlineDate (#PCDATA)>
