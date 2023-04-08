@@ -1,4 +1,4 @@
-<!DOCTYPE Publications [
+
         <!ELEMENT Publications (Article)*>
         <!ELEMENT Article (PubDetails)*>
         <!ATTLIST Article
@@ -32,4 +32,4 @@
         <!ELEMENT Suffix (#PCDATA)>
         <!ELEMENT MedlineDate (#PCDATA)>
         <!ELEMENT Season (#PCDATA)>
-        ]>
+       
