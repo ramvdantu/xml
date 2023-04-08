@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" standalone = "no" ?>
 <!DOCTYPE  Publications SYSTEM "Publications.dtd">
-<Publications>
+
+ <Publications>
   <Article PMID="1">
     <PubDetails>
       <Journal>
@@ -23,6 +24,7 @@
           <ForeName>A B</ForeName>
           <Initials>AB</Initials>
         </Author>
+        
         <Author ValidYN="Y">
           <LastName>McMartin</LastName>
           <ForeName>K E</ForeName>
@@ -60,19 +62,24 @@
       <ArticleTitle>Delineation of the intimate details of the backbone conformation of pyridine nucleotide coenzymes in aqueous solution.</ArticleTitle>
       <AuthorList CompleteYN="Y">
         <Author ValidYN="Y">
-          <LastName>Bose</LastName>
-          <ForeName>K S</ForeName>
-          <Initials>KS</Initials>
-        </Author>
-              <Author ValidYN="Y">
           <LastName>Makar</LastName>
           <ForeName>A B</ForeName>
           <Initials>AB</Initials>
         </Author>
         <Author ValidYN="Y">
+          <LastName>Bose</LastName>
+          <ForeName>K S</ForeName>
+          <Initials>KS</Initials>
+        </Author>
+        <Author ValidYN="Y">
           <LastName>Sarma</LastName>
           <ForeName>R H</ForeName>
           <Initials>RH</Initials>
+        </Author>
+        <Author ValidYN="Y">
+          <LastName>Palese</LastName>
+          <ForeName>M</ForeName>
+          <Initials>M</Initials>
         </Author>
       </AuthorList>
     </PubDetails>
