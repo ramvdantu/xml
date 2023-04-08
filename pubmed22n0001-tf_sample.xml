@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
- <!DOCTYPE  Publications SYSTEM " https://raw.githubusercontent.com/ramvdantu/xml/main/publications.dtd " >
+ <!DOCTYPE  Publications SYSTEM "pubdtd.dtd " >
 <Publications>
   <Article PMID="1">
     <PubDetails>
