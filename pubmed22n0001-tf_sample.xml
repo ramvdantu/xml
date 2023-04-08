@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
- <!DOCTYPE  Publications SYSTEM "pubdtd.dtd " >
+<!DOCTYPE  Publications SYSTEM "Publications.dtd">
 <Publications>
   <Article PMID="1">
     <PubDetails>
